@@ -3,6 +3,7 @@ import { makeStyles } from "@material-ui/core/styles"
 import Grid from "@material-ui/core/Grid"
 
 import MediaCard from "./card"
+import FlatCard from "./flatCard"
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -26,7 +27,7 @@ export default function ApplicationBoard() {
         spacing={3}
       >
         <Grid className={classes.item} item xs>
-            <MediaCard />
+            <FlatCard />
         </Grid>
       </Grid>
     </div>
